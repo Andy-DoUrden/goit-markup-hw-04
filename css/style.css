@@ -132,7 +132,7 @@ ul {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 1600px;
+  /* max-width: 1600px; */
   margin: 0 auto;
 }
 
@@ -188,7 +188,10 @@ ul {
 
 .benefits-icon-div {
   width: 270px;
-  padding: 25px 100px;
+  min-height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
   background-color: #f5f4fa;
 }
