@@ -414,16 +414,16 @@ ul {
   display: block;
 }
 
-.footer-links:nth-child(-n + 2) {
+.footer-address-item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-links ~ a {
+.footer-address-item:not(:first-child) .footer-links {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-links:hover,
-.footer-links:focus {
+.footer-address-item:hover .footer-links,
+.footer-address-item:focus .footer-links {
   color: var(--accent-color);
 }
 
